@@ -1,0 +1,25 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/nameField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="链接名称" />
+
+    <EditText
+        android:id="@+id/urlField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="网页链接"
+        android:layout_below="@id/nameField" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="保存"
+        android:layout_below="@id/urlField" />
+</RelativeLayout>
